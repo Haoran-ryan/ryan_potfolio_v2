@@ -1,54 +1,77 @@
-import { HiOutlineDesktopComputer } from "react-icons/hi";
-import { CiMobile1 } from "react-icons/ci";
-import { MdWorkspacesOutline } from "react-icons/md";
-export const projectExperience = [
+import { FaReact } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
+import { FaAws } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+
+export const devExperience = [
   {
-    name: "Website Design",
-    projects: 76,
-    icon: HiOutlineDesktopComputer,
+    name: "Front End Development",
+    technology: "ReactJS, VueJS, JavaScript",
+    icon: FaReact,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
-    icon: CiMobile1,
+    name: "Back End Development",
+    technology: "NodeJS, ExpressJS, MongoDB, FireStore",
+    icon: FaNodeJs,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
-    icon: MdWorkspacesOutline,
+    name: "Programming Language",
+    technology: "Python, Ruby, C(basic)",
+    icon: FaPython,
     bg: "#F26440",
   },
+  {
+    name:"On-going",
+    technology:"React Native, AWS, CMS, TypeScript",
+    icon: FaAws, 
+    bg:"#000080"
+  }
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "I believe that technology can make the world a better place. I bring to you a unique blend of technical knowledge, communication skills and passion for learning and challenges.",
+
+  "We will work together to tell the story of the brand, product or service in a way that will engage our audience and drive results."
 ];
 
-export const workExp = [
+export const eduExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "University of New South Wales",
+    tenure: "Jan 2022 - Present",
+    degree: "Master of Information Technology (PT)",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Advancing my knowledge in the field of Information Technology to better hone my software development skills",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "General Assembly",
+    tenure: "Dec 2022 - Mar 2023",
+    degree: "Software Engineering Immersive",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "A 12-week intensive program focused on gaining technical programming skills in JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB, FireStore, Python, Ruby and more",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "University of New South Wales",
+    tenure: "Jan 2022 - Nov 2022",
+    degree: "Graduate Certificate in Computing",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Gained a solid foundation in OOP programming, data structures and algorithms",
   },
+  {
+    place: "TAFE NSW",
+    tenure: "July 2021 - Dec 2021",
+    degree: "Undergraduate Certificate in Data Engineering",
+    detail:
+      "Started my journey in IT by exploring all the beauty of data analysis with Python, SQL and R & Grauduated with Distinction",
+  },
+  {
+    place: "Macquarie University",
+    tenure: "Jan 2017 - Nov 2018",
+    degree: "Master of Conference Interpreting",
+    detail:
+      "Laying advacned foundations for my years of practice in interpreting and translation",
+  }
 ];
 
 export const comments = [

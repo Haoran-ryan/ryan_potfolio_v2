@@ -1,6 +1,8 @@
 @import '../../styles/constants.scss';
 
 .wrapper{
+    // background-color added to fix the overflow issue from Hero component 
+    background-color: #f8f7f1;
     position: relative;
     z-index: 99;
     opacity: 1 ;

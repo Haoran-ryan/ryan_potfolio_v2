@@ -1,0 +1,46 @@
+@import '../../styles/constants.scss';
+
+.wrapper{
+    background: white;
+    overflow: hidden;
+    .container{
+        flex-direction: column;
+        gap:2rem;
+        .heading{
+            width: 100%;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            >:nth-child(2){
+                text-decoration: underline;
+                color: orange;
+                cursor: pointer;
+                a:hover{
+                    color: orange;
+                }
+                a:active{
+                    color:red;
+                }
+                a:link, a:visited {
+                    text-decoration: none;
+                  }
+            }
+        }
+        .showCase{
+            width: 100%;
+            gap: 1.5rem;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            img{
+                @media (max-width: $sm) {
+                    width: 100%;
+                }
+                border-radius: 20px;
+                max-width: 25rem;
+                max-height: 18rem;
+                box-shadow: 0px 21px 31px rgba(0,0,0,13%);
+                cursor: pointer;
+            }
+        }
+    }
+
+}

@@ -24,8 +24,8 @@ const Header = () => {
         <ul 
         style={getMenuStyles(menuOpen)}
         className={`flexCenter ${css.menu}`}>
-          <li><a href="">Services</a></li>
-          <li><a href="">Experiences</a></li>
+          <li><a href="">Skills</a></li>
+          <li><a href="">Education</a></li>
           <li><a href="">Portofolio</a></li>
           <li><a href="">Testimonials</a></li>
           <li className={`flexCenter ${css.phone}`}>
