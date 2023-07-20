@@ -40,7 +40,7 @@ const Portfolio = () => {
                     />
                     </a>
 
-                    <a href="https://dulcet-stroopwafel-07ade2.netlify.app/#/" target="_blank">
+                    <a href="https://tutonet.netlify.app/" target="_blank">
                         <motion.img 
                     variants={fadeIn('up','tween', 0.7, 0.6)}
                     src="./TutoNet.png" alt="TutoNet" 
