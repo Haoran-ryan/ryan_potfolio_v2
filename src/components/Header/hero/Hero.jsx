@@ -49,9 +49,9 @@ const Hero = () => {
                 </motion.div>
 
                 {/* Email */}
-                <a href="mailto:haoranguo.software@gmail.com" 
+                <a href="mailto:gryan@outlook.com.au" 
                 className={`secondaryText ${css.email}`}>
-                    haoranguo.software@gmail.com
+                    gryan@outlook.com.au
                 </a>
                 {/* Lower Elements */}
                 <div className={`${css.lowerElements}`}>

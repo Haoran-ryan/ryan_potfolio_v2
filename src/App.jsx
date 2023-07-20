@@ -5,6 +5,7 @@ import Hero from "./components/Header/hero/Hero";
 import Portfolio from "./components/Portfolio/Portfolio";
 import css from './styles/app.module.scss';
 import People from "./components/People/People.jsx";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return <div className={`bg-primary ${css.container}`}>
@@ -13,7 +14,8 @@ const App = () => {
     <Expertise />
     <Education />
     <Portfolio />
-    <People />
+    {/* <People /> */}
+    <Footer />
   </div>;
 };
 
